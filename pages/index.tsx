@@ -6,7 +6,11 @@ import styles from '../styles/Home.module.css';
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
-      <h1 className='text-3xl font-bold underline'>Hello world!</h1>
+      <Head>
+        <title>Alvin = O</title>
+        <meta name='description' content="Alvin's portfolio site" />
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
     </div>
   );
 };
